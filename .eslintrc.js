@@ -19,5 +19,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    'vue/require-default-prop': 0,
+    'vue/no-use-v-if-with-v-for': 0
   }
 }

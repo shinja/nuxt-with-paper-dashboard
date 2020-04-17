@@ -1,8 +1,15 @@
 <template>
-  <div>
-    <nuxt />
-  </div>
+  <DashboardLayout />
 </template>
+
+<script>
+import DashboardLayout from './dashboard/DashboardLayout'
+export default {
+  components: {
+    DashboardLayout
+  }
+}
+</script>
 
 <style>
 html {
